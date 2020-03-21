@@ -1,0 +1,72 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	font-size: 20px;
+	line-height: 25px;
+
+
+}
+
+header{
+	text-align: center;
+	background-color: lightyellow;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+header h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+main img{
+	max-width: 100%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h2{
+	font-size: 30px;
+}
+
+a{
+	color: darkblue;
+}
+
+/* Links werden heller, wenn man mit der Maus rüberfährt */
+a:hover{
+	color: lightblue;
+}
+
+footer{
+	text-align: center;
+	background-color: lightyellow;
+	padding: 2px;
+}
+
+/* Bildunterschriften */
+p.caption{
+	font-style: italic;
+	color: #999999;
+	margin-top: 0;
+}
